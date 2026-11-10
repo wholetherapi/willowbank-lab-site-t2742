@@ -38,10 +38,10 @@ def parse_front_matter(text):
 def load_records():
     records = []
     # Publication records are kept flat in content/publications.
-    for path in sorted(glob.glob(os.path.join(CONTENT_DIR, "*.md"))):
+    for path in sorted(glob.glob(os.path.join(CONTENT_DIR, "**", "*.md"), recursive=True)):
         with open(path, "r", encoding="utf-8") as handle:
             fm = parse_front_matter(handle.read())
-        if fm.get("status", "").strip().lower() != "published":
+        if fm.get("status", "").strip().lower() not in ("published", "accepted"):
             continue
         fm["_path"] = path
         records.append(fm)
