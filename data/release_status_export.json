@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.4",
+  "generated_at": "2026-10-02T03:00:00Z",
+  "generator": "scripts/export_release_status.py",
+  "method": "release_state derived from repository topics only",
+  "projects": [
+    {
+      "record_id": "sediment-metal-speciation",
+      "repository": "willowbank-sediment-metal-speciation-t2742",
+      "topics": [
+        "released",
+        "metals",
+        "porewater"
+      ],
+      "release_state": "public",
+      "last_release_tag": "v1.0.4",
+      "snapshot_note": "topics cached by hosting service"
+    },
+    {
+      "record_id": "fish-passage-telemetry",
+      "repository": "willowbank-fish-passage-telemetry-t2742",
+      "topics": [
+        "released",
+        "telemetry",
+        "fish"
+      ],
+      "release_state": "public",
+      "last_release_tag": "v1.0.2",
+      "snapshot_note": "topics cached by hosting service"
+    },
+    {
+      "record_id": "microplastic-settling-rates",
+      "repository": "willowbank-microplastic-settling-rates-t2742",
+      "topics": [
+        "released",
+        "microplastics",
+        "flume"
+      ],
+      "release_state": "public",
+      "last_release_tag": "v1.1.3",
+      "snapshot_note": "topics cached by hosting service"
+    },
+    {
+      "record_id": "wetland-connectivity-graphs",
+      "repository": "willowbank-wetland-connectivity-graphs-t2742",
+      "topics": [
+        "released",
+        "wetlands",
+        "graphs"
+      ],
+      "release_state": "public",
+      "last_release_tag": "v1.0.0",
+      "snapshot_note": "topics cached by hosting service"
+    }
+  ]
+}
